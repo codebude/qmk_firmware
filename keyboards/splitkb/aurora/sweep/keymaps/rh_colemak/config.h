@@ -32,7 +32,6 @@
 // Needed to define custom tapping term for modifier keys
 #define TAPPING_TERM_PER_KEY
 
-#define IGNORE_MOD_TAP_INTERRUPT
 #define PERMISSIVE_HOLD
 #define HOLD_ON_OTHER_KEY_PRESS
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY

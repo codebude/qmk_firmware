@@ -256,8 +256,8 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 bool oled_task_user(void) {
     // A 128x32 OLED rotated 90 degrees is 5 characters wide and 16 characters tall
     // This example string should fill that neatly
-    const char *text_master = PSTR("Master!");
-    const char *text_slave = PSTR("Slave!");
+    const char *text_master = PSTR("MSTR:");
+    const char *text_slave = PSTR("SLVE:");
 
     if (is_keyboard_master()) {
         oled_write_P(text_master, false);
