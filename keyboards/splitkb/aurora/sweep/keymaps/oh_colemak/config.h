@@ -41,16 +41,3 @@
 
 // increace debounce timeout to 30 ms
 #define DEBOUNCE 30
-
-// Split settings
-//#define SPLIT_LED_STATE_ENABLE // Push LED state to slave
-#define SPLIT_LAYER_STATE_ENABLE
-//#define SPLIT_TRANSPORT_MIRROR
-#define SPLIT_ACTIVITY_ENABLE
-//#define SPLIT_WPM_ENABLE // Send WPM value to slave
-#define OLED_DISPLAY_128X32
-#define SPLIT_OLED_ENABLE
-#define OLED_DISABLE_TIMEOUT
-#define OLED_FONT_H "keyboards/splitkb/aurora/sweep/keymaps/rh_colemak/glcdfont_rh.c"
-#define OLED_UPDATE_INTERVAL 0
-//#define OLED_TIMEOUT 0

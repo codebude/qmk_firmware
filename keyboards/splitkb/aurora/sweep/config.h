@@ -18,5 +18,6 @@
 
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
-#   define OLED_FONT_H "keyboards/splitkb/aurora/sweep/glcdfont.c"
+// Set in rh_colemak/config.h
+//#   define OLED_FONT_H "keyboards/splitkb/aurora/sweep/glcdfont.c"
 #endif
