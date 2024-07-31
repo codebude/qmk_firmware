@@ -27,17 +27,13 @@
 
 // Smaller values lead to mistriggered Shifts, especially /w z-w rolls
 #define TAPPING_TERM 250
-// Modfiers need a longer tapping term, b/c it seems I'm tapping them slower...
-#define ONESHOT_TAPPING_TERM 400
-// Needed to define custom tapping term for modifier keys
-#define TAPPING_TERM_PER_KEY
 
-#define PERMISSIVE_HOLD
-#define HOLD_ON_OTHER_KEY_PRESS
-#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
-#define ONESHOT_TIMEOUT 2000
-#define ONESHOT_TAP_TOGGLE 2
-// #define TAP_CODE_DELAY 100
+
+//#define PERMISSIVE_HOLD
+//#define HOLD_ON_OTHER_KEY_PRESS
+//#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+//#define ONESHOT_TAP_TOGGLE 2
+
 
 // increace debounce timeout to 30 ms
 #define DEBOUNCE 30
@@ -53,4 +49,3 @@
 #define OLED_DISABLE_TIMEOUT
 #define OLED_FONT_H "keyboards/splitkb/aurora/sweep/keymaps/rh_colemak/glcdfont_rh.c"
 #define OLED_UPDATE_INTERVAL 0
-//#define OLED_TIMEOUT 0
